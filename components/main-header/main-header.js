@@ -14,16 +14,25 @@ export default function MainHeader() {
             <header className={classes.header}>
                 <Link href="/" className={classes.logo}>
                     <Image src={logoImg} alt="A plate with food on it" priority></Image>
-                    NextLevel Food
+                    Gem and Jewelry
                 </Link>
 
                 <nav className={classes.nav}>
                     <ul>
                         <li>
-                            <NavLink href="/meals">Browse Meals</NavLink>
+                            <NavLink href="/collection">Collection</NavLink>
                         </li>
                         <li>
-                            <NavLink href="/community">Foodies Community</NavLink>
+                            <NavLink href="/gifts">Gifts</NavLink>
+                        </li>
+                        <li>
+                            <NavLink href="/customize">Customize</NavLink>
+                        </li>
+                        <li>
+                            <NavLink href="/about-us">About Us</NavLink>
+                        </li>
+                        <li>
+                            <NavLink href="/contact-us">Contact Us</NavLink>
                         </li>
                     </ul>
                 </nav>

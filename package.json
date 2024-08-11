@@ -1,5 +1,5 @@
 {
-  "name": "foodies",
+  "name": "jewelry",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "antd": "^5.20.0",
     "better-sqlite3": "^11.1.2",
     "next": "14.0.3",
     "react": "^18",
